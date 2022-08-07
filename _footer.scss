@@ -1,0 +1,125 @@
+
+       
+   
+.footer{
+    width: 75%;
+    margin: 20% 15% 0% 15%;
+    // background-color: rgb(143, 28, 28);
+    h4{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    .footer-img{
+        width: 70%;
+        margin-top: 80px ;
+    }
+    .footer-li1{
+        margin-top: 67px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    .footer-li2{
+        margin-top: 38px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    .footer-li3{
+        width: 60%;
+        margin-top: 42px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer-button{
+    width: 217px;
+    height: 56px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    border: none;
+    margin-top: 10%;
+    &:hover{
+        box-shadow: 0px 0px 20px rgb(179, 126, 126) ;
+    }
+    &:active{
+        background-color: #333D4B;
+    }
+}
+@media (max-width:1000px){
+     .footer{
+        display: inline;
+     }   
+    .footer-div{
+        display: inline;
+        // text-align: center;
+    }
+   
+      
+}
+.footer-2{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(40, 30, 30);
+    .footer-2-ul{
+        display: flex;
+        .img-a{
+            
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #83888F;
+            margin-right:20px ;
+            &:hover{
+                color: #FEFCF7;
+            }
+        }
+    }
+    .img-0{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .footer-2{
+        // background-color: rgb(36, 27, 27);
+        display: inline;
+        text-align: center;
+    }
+    .footer-2-ul{
+        margin-top: 50px;
+        justify-content: center;
+        margin-bottom: 50px;
+        // background-color: rgb(36, 27, 27);
+
+    }
+    .img-2{
+        // background-color: rgb(36, 27, 27);
+        margin-top: 60px;
+    }
+    
+    .footer-0{
+        background-color: rgb(31, 27, 27);
+        margin-top: 10%;
+    }
+  
+}
